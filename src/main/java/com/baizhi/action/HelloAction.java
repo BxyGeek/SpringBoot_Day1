@@ -8,6 +8,9 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @RequestMapping("/hello")
 public class HelloAction {
 
+    
+    //这是我在github上做的修改
+    
     @RequestMapping("/boot")
     @ResponseBody
     public  String   boot() throws Exception{
